@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "react-elastic-carousel";
+//import Carousel from "react-elastic-carousel";
 
 import { Grid, Paper, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
