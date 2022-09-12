@@ -1,6 +1,6 @@
 import React from 'react'
-import { Typography} from '@material-ui/core'
-import { Box,Grid,Container, Button } from '@mui/material'
+//import { Typography} from '@material-ui/core'
+import { Box,Grid,Container, Button, Typography } from '@mui/material'
 import aboutMain from '../asset/cbiryani.jpg';
 import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 
