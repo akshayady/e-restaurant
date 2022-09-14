@@ -83,7 +83,7 @@ export default function Home(props) {
             padding: "20px",
           }}
         >
-            <Carousel>
+            {/* <Carousel>
             <card>
             <Grid container spacing={6}>
                 <Grid item lg={8}>
@@ -132,7 +132,7 @@ export default function Home(props) {
                 </Grid>
               </Grid>
             </card>
-          </Carousel>
+          </Carousel> */}
 
         </Box>
         <Box pt={8}>
