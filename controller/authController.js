@@ -1,5 +1,5 @@
 const Auth = require('../model/authModel')
-const Order = require('../model/OrderModel')
+const Order = require('../model/orderModel')
 const bcrypt = require('bcryptjs')
 const { createAccToken,createRefToken } = require('../util/token');
 const jwt = require('jsonwebtoken');
