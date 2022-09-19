@@ -74,7 +74,7 @@ export default function Home(props) {
       </Box>
 
       <Grid pt={6} pb={4} sx={{ padding: "20px" }}>
-      {/* <Box
+      <Box
           className="Home"
           sx={{
             backgroundColor: "orange",
@@ -103,7 +103,7 @@ Habitant morbi tristique senectus et netus et malesuada fames. Tortor posuere ac
 
            </Grid>
 
-        </Box> */}
+        </Box>
         <Box pt={8}>
         <Typography variant="h4" align="center">
             HOW IT WORKS
