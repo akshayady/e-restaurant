@@ -1,7 +1,7 @@
 import React from "react";
 //import Carousel from "react-elastic-carousel";
 
-import { Grid, Paper, Typography } from "@mui/material";
+import { Grid, Paper, Stack, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 
 import Button from "@mui/material/Button";
@@ -32,6 +32,7 @@ export default function Home(props) {
           backgroundSize: "cover",
         }}
       >
+       
         <Grid container>
           <Grid
             item
@@ -84,12 +85,21 @@ export default function Home(props) {
           }}
         >
            <Grid container >
+            
+           
             <Grid item md={4}>
-              <image src = {Img28} />
+              <img src = {Img28} height="100%" width='100%'/>
             </Grid>
-            <Grid item md={4}>
-              <image src = {Img28} />
+            <Grid item md={2}>
+              
             </Grid>
+            <Grid item md={6}>
+              <Typography variant="h3">Flavorful & Organic dishes everyday we cook here</Typography>
+              <Typography variant="h4">
+Habitant morbi tristique senectus et netus et malesuada fames. Tortor posuere ac ut consequat</Typography>
+<Button href="/menu" variant="contained">Menu</Button>
+            </Grid>
+           
 
            </Grid>
 
@@ -211,6 +221,7 @@ export default function Home(props) {
 
       </Grid>
       <Footer/>
+
 
       </Box>
 
