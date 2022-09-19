@@ -12,7 +12,7 @@ import Drive from "../asset/delicon.png";
 import Enjoy from "../asset/bowl.png";
 import Boy from "../asset/360.png";
 import header from "../asset/foody.webp";
-import Img28 from '../asset/wow.png';
+import Img28 from '../asset/wow.jpg';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
