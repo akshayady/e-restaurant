@@ -12,7 +12,7 @@ import Drive from "../asset/delicon.png";
 import Enjoy from "../asset/bowl.png";
 import Boy from "../asset/360.png";
 import header from "../asset/foody.webp";
-import Img28 from '../asset/rangoli.png';
+import Img28 from '../asset/wow.png';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -83,56 +83,15 @@ export default function Home(props) {
             padding: "20px",
           }}
         >
-            {/* <Carousel>
-            <card>
-            <Grid container spacing={6}>
-                <Grid item lg={8}>
-                <Typography variant="h3" color="text.secondary" gutterBottom>
-                  It's a month of festival
-                </Typography>
+           <Grid container >
+            <Grid item md={4}>
+              <image src = {Img28} />
+            </Grid>
+            <Grid item md={4}>
+              <image src = {Img28} />
+            </Grid>
 
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                  Make this festive happier with more traditional foods.  
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                  {'"Celebrate together with Your family with all the joy "'}
-                </Typography>
-                <Button size="small" variant="contained" href="/menu">
-                  ORDER NOW
-                </Button>
-                 
-                </Grid>
-                <Grid item lg={4}>
-                  <img src={Img28} width={250} height={250} />
-                </Grid>
-              </Grid>
-            </card>
-            <card>
-              <Grid container spacing={0.5}>
-                <Grid item lg={6} align='center'>
-                  <Typography variant="h3">50% off on first order </Typography>{" "}
-                  <img src={Burger} width={200} height={150}  sx={{justifyContent:'center'}}/>
-                </Grid>
-                <Grid item lg={4}>
-                  <Typography variant="h4" gutterBottom>Come register now</Typography>
-                  <Typography variant="body2" gutterBottom>good food has always the biggest ropes to heaven, but with us you will never be late to taste the best </Typography>
-                  <Button variant="contained" href="/register">register</Button>
-                </Grid>
-              </Grid>
-            </card>
-            <card>
-              <Grid container spacing={6}>
-                <Grid item lg={6}>
-                  
-                  <img src={Fast} width={200} height={150} />
-                </Grid>
-                <Grid item lg={6}>
-                  <Typography variant="h4">Come register now</Typography>{" "}
-                  <Button variant="contained">register</Button>
-                </Grid>
-              </Grid>
-            </card>
-          </Carousel> */}
+           </Grid>
 
         </Box>
         <Box pt={8}>
